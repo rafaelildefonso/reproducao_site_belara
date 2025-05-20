@@ -208,13 +208,21 @@ nav li i {
     font-size: 18px;
 }
 
-main {}
+main {
+    background-color: #212529;
+    transform: translateY(-100px);
+}
+
+.banner {
+    background-color: #0d6efd;
+}
 
 .containerPrincipal {
-    position: relative;
     width: 100%;
-    top: 30vh;
-    left: 17vw;
+    margin-top: 300px;
+    margin-bottom: 165px;
+    text-align: center;
+
 }
 
 main .titulo {
@@ -222,6 +230,7 @@ main .titulo {
     max-width: 540px;
     display: inline-block;
     /* background-color: #0d6efd; */
+    text-align: left;
 }
 
 main .titulo2 {
@@ -319,4 +328,30 @@ main .titulo1 {
 
 .sociais a i {
     color: #fff;
+}
+
+.ti-mouse:before {
+    font-family: 'themify';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e68a";
+    color: #D6A04C;
+    font-size: 37px;
+}
+
+.bottom_banner {
+    background-color: #6610f2;
+    width: 100%;
+    height: 112px;
+}
+
+.bottom_banner .mouse a {
+    text-decoration: none;
 }
